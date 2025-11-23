@@ -125,7 +125,7 @@
 
 ## 🧠 AI STYLE PROFILE
 
-```ai
+ai
 Personality: Visionary Developer
 Design DNA : Futuristic + Intelligent + Bold
 Core Mode  : AI-Driven Creativity
