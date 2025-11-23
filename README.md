@@ -19,7 +19,7 @@
 ```json
 {
   "Name": "Rakib Hasan",
-  "Alias": "☆ Nur Rakib ☆",
+  "Alias": "☆ Akaima ☆",
   "Country": "Bangladesh",
   "Role": "Frontend Dev + Creative Designer",
   "Theme": "Cyber x Luxury x Pro",
@@ -72,7 +72,7 @@
 
 ## 🧍 Personal Profile
 
-* 👤 Name : ☆ NUR RAKIB ☆ HAFIZ
+* 👤 Name : ☆ HAFIZ NUR RAKIB ☆
 * 📚 Education : STUDY
 * ❤️ Relationship : Complicated
 * ☪ Religion : ISLAM
@@ -131,9 +131,6 @@ Design DNA : Futuristic + Intelligent + Bold
 Core Mode  : AI-Driven Creativity
 Brain Loop : Learn → Build → Innovate → Dominate
 Signature  : Digital Excellence
-```
-
-> "Artificial Intelligence is my tool, Creativity is my weapon."
 
 ---
 
