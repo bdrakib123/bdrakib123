@@ -84,7 +84,7 @@
   <br>
 
   <a href="https://github.com/bdrakib123/cyber-bot-rakib">
-   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=cyber-ullash&repo=CYBER-BOT-COMMUNITY&theme=github_dark" style="margin-top: 10px;"/>
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=cyber-ullash&repo=CYBER-BOT-RAKIB&theme=github_dark" style="margin-top: 10px;"/>
   </a>
 </p>
 
