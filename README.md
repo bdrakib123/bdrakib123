@@ -9,14 +9,18 @@
 
 {
   "Name": "Rakib Hasan",
+  
   "Alias": "☆ Nur Rakib ☆",
+  
   "Country": "Bangladesh",
+  
   "Role": "Frontend Dev + Creative Designer",
+  
   "Theme": "Cyber x Luxury x Pro",
+  
   "Vision": "Global Personal Brand"
 }
 
-> "I don't just write code, I design experiences."
 
 
 
