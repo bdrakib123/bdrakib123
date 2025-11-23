@@ -123,14 +123,19 @@
 
 ---
 
-## 🧠 AI SYSTEM BOOT
+## 🧠 AI STYLE PROFILE
 
-diff
-+ Personality : Visionary Developer
-+ Design DNA  : Futuristic + Intelligent + Bold
-+ Core Mode   : AI-Driven Creativity
-+ Brain Loop  : Learn → Build → Innovate → Dominate
-+ Signature  : Digital Excellence
+<div align="center" style="border:1px solid #00ffcc; border-radius:12px; padding:15px; background:linear-gradient(135deg,#020617,#000000);">
+
+✨ <b>AI CORE SYSTEM</b> ✨
+
+Personality : <b>Visionary Developer</b>  
+Design DNA : <b>Futuristic + Intelligent + Bold</b>  
+Core Mode  : <b>AI-Driven Creativity</b>  
+Brain Loop : <b>Learn → Build → Innovate → Dominate</b>  
+Signature : <b>Digital Excellence</b>
+
+</div>
 
 ---
 
