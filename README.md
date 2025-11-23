@@ -1,852 +1,175 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rakib Hasan | Cyber Hacker Portfolio</title>
-  <style>
-    :root {
-      --bg-main: #020617;
-      --bg-card: rgba(2, 6, 23, 0.96);
-      --accent-neon: #39ff14; /* hacker green */
-      --accent-neon-2: #00f5ff; /* cyan */
-      --accent-gold: #ffd700;
-      --text-main: #e5e7eb;
-      --text-muted: #9ca3af;
-      --border-glow: 0 0 24px rgba(57, 255, 20, 0.65);
-      --radius-xl: 18px;
-    }* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
+# <img src="https://i.imgur.com/Q89m3ix.jpeg" width="100%" />
 
-body {
-  background: radial-gradient(circle at top, #020617 0, #000000 45%, #000000 100%);
-  color: var(--text-main);
-  min-height: 100vh;
-}
+<div align="center">
 
-/* Neon background orbs */
-.bg-orb {
-  position: fixed;
-  border-radius: 999px;
-  filter: blur(90px);
-  opacity: 0.35;
-  z-index: -1;
-}
+<h1>⚡ RAKIB HASAN ⚡</h1>
+<h3>☆ NUR RAKIB ☆</h3>
 
-.bg-orb.orb-1 {
-  width: 340px;
-  height: 340px;
-  background: #39ff14;
-  top: -40px;
-  left: -40px;
-}
+<img src="https://readme-typing-svg.demolab.com/?font=Orbitron&size=30&duration=3000&pause=800&color=00FFCC&center=true&vCenter=true&width=800&lines=HACKER+•+DESIGNER+•+FRONTEND+DEVELOPER;CREATING+DIGITAL+IDENTITY+WITH+STYLE;WELCOME+TO+THE+CYBER+REALM+OF+RAKIB" />
 
-.bg-orb.orb-2 {
-  width: 400px;
-  height: 400px;
-  background: #00f5ff;
-  bottom: -60px;
-  right: -40px;
-}
+<img src="https://img.shields.io/badge/CYBER%20STATUS-SUPER%20PREMIUM%20MODE-ff00ff?style=for-the-badge&logo=skyliner&logoColor=white" />
+<img src="https://komarev.com/ghpvc/?username=bdrakib123&label=Profile%20Visitors&color=00ffff&style=for-the-badge" />
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  backdrop-filter: blur(16px);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.96), rgba(15, 23, 42, 0.65));
-  border-bottom: 1px solid rgba(55, 65, 81, 0.8);
-}
-
-.nav-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0.8rem 1.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.brand-logo {
-  width: 36px;
-  height: 36px;
-  border-radius: 999px;
-  border: 2px solid var(--accent-neon);
-  box-shadow: var(--border-glow);
-  overflow: hidden;
-  position: relative;
-  background: radial-gradient(circle at 30% 20%, #39ff14, #000000);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #bbf7d0;
-  font-weight: 800;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-}
-
-.brand-logo img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  mix-blend-mode: soft-light;
-  opacity: 0.55;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.brand-text span:first-child {
-  font-size: 0.8rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent-neon);
-}
-
-.brand-text span:last-child {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.2rem;
-  font-size: 0.9rem;
-}
-
-nav a {
-  color: var(--text-muted);
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 2px;
-}
-
-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent-neon), var(--accent-neon-2));
-  transition: width 0.2s ease-out;
-}
-
-nav a:hover {
-  color: var(--text-main);
-}
-
-nav a:hover::after {
-  width: 100%;
-}
-
-.btn-primary {
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(55, 65, 81, 0.9);
-  background: radial-gradient(circle at top left, rgba(57, 255, 20, 0.28), rgba(0, 0, 0, 0.98));
-  color: var(--text-main);
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.15s ease-out;
-  box-shadow: 0 0 0 rgba(57, 255, 20, 0.3);
-}
-
-.btn-primary:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 0 22px rgba(57, 255, 20, 0.7);
-  border-color: var(--accent-neon);
-}
-
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1.8rem 1.25rem 3rem;
-}
-
-/* HERO */
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
-  gap: 2rem;
-  align-items: center;
-  padding: 1.8rem 1.2rem;
-  margin-top: 0.5rem;
-  border-radius: 24px;
-  background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.98), #020617 70%);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
-  border: 1px solid rgba(55, 65, 81, 0.9);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero::before {
-  content: ">_ HACKER";
-  position: absolute;
-  right: 10px;
-  bottom: 6px;
-  font-size: 2.4rem;
-  font-weight: 800;
-  letter-spacing: 0.25em;
-  color: rgba(15, 23, 42, 0.85);
-}
-
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.25rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid rgba(57, 255, 20, 0.8);
-  background: rgba(3, 7, 18, 0.9);
-  font-size: 0.75rem;
-  color: var(--accent-neon);
-  margin-bottom: 0.8rem;
-}
-
-.hero-badge span {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.hero-title {
-  font-size: clamp(2.2rem, 4vw, 2.7rem);
-  line-height: 1.1;
-  margin-bottom: 0.5rem;
-}
-
-.hero-title span.highlight {
-  background: linear-gradient(90deg, var(--accent-neon), var(--accent-gold));
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.hero-subtitle {
-  font-size: 1rem;
-  color: var(--text-muted);
-  margin-bottom: 1rem;
-  max-width: 480px;
-}
-
-.hero-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.4rem;
-}
-
-.hero-tag {
-  padding: 0.2rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  background: rgba(0, 0, 0, 0.85);
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  align-items: center;
-}
-
-.btn-ghost {
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  background: transparent;
-  color: var(--text-main);
-  font-size: 0.85rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.btn-ghost span {
-  font-size: 1rem;
-}
-
-.hero-right {
-  position: relative;
-}
-
-.hero-card {
-  border-radius: 20px;
-  background: var(--bg-card);
-  border: 1px solid rgba(55, 65, 81, 0.9);
-  padding: 0.9rem;
-  box-shadow: var(--border-glow);
-}
-
-.hero-banner {
-  border-radius: 16px;
-  overflow: hidden;
-  margin-bottom: 0.75rem;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-}
-
-.hero-banner img {
-  width: 100%;
-  display: block;
-  filter: saturate(1.1) contrast(1.05);
-}
-
-.hero-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  background: #22c55e;
-  box-shadow: 0 0 10px rgba(34, 197, 94, 0.9);
-  display: inline-block;
-  margin-right: 4px;
-}
-
-.floating-chip {
-  position: absolute;
-  right: 6px;
-  top: -10px;
-  padding: 0.4rem 0.7rem;
-  font-size: 0.7rem;
-  border-radius: 999px;
-  background: linear-gradient(120deg, #39ff14, #00f5ff);
-  color: #020617;
-  font-weight: 600;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-}
-
-/* Sections */
-section {
-  margin-top: 3rem;
-}
-
-.section-title {
-  font-size: 1.3rem;
-  margin-bottom: 1.1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.section-title span.icon {
-  font-size: 1.3rem;
-}
-
-.section-sub {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  margin-bottom: 1.4rem;
-  max-width: 520px;
-}
-
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
-.card {
-  background: var(--bg-card);
-  border-radius: var(--radius-xl);
-  padding: 1.2rem;
-  border: 1px solid rgba(55, 65, 81, 0.9);
-}
-
-.card h3 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
-
-.pill-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-top: 0.7rem;
-}
-
-.pill {
-  padding: 0.25rem 0.65rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  color: var(--text-muted);
-  background: rgba(0, 0, 0, 0.9);
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.65rem;
-  margin-top: 0.7rem;
-}
-
-.skill-box {
-  padding: 0.55rem 0.65rem;
-  border-radius: 12px;
-  background: radial-gradient(circle at top left, rgba(15, 23, 42, 0.98), #020617);
-  border: 1px solid rgba(75, 85, 99, 0.95);
-  font-size: 0.8rem;
-}
-
-.skill-box span {
-  display: block;
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  margin-top: 2px;
-}
-
-.project-card {
-  background: radial-gradient(circle at top left, rgba(24, 24, 27, 0.98), #020617);
-  border-radius: var(--radius-xl);
-  padding: 1.2rem;
-  border: 1px solid rgba(34, 197, 94, 0.9);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9);
-}
-
-.project-card h3 {
-  font-size: 1rem;
-  margin-bottom: 0.3rem;
-}
-
-.project-meta {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: 0.5rem;
-}
-
-.project-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  margin-top: 0.6rem;
-  font-size: 0.8rem;
-  color: var(--accent-neon);
-  text-decoration: none;
-}
-
-.project-link:hover {
-  text-decoration: underline;
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.contact-list {
-  list-style: none;
-  font-size: 0.9rem;
-}
-
-.contact-list li {
-  margin-bottom: 0.55rem;
-  color: var(--text-muted);
-}
-
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.75rem;
-  padding: 0.2rem 0.55rem;
-  border-radius: 999px;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  margin-top: 0.4rem;
-}
-
-.badge::before {
-  content: "●";
-  color: var(--accent-neon);
-}
-
-.social-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-top: 0.9rem;
-}
-
-.social-btn {
-  padding: 0.45rem 0.9rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  text-decoration: none;
-  color: var(--text-main);
-  background: rgba(3, 7, 18, 0.98);
-}
-
-.social-btn span {
-  opacity: 0.8;
-  font-size: 0.85em;
-}
-
-.terminal-card {
-  background: #020617;
-  border-radius: 14px;
-  border: 1px solid rgba(75, 85, 99, 0.9);
-  overflow: hidden;
-  font-family: "Fira Code", monospace;
-  font-size: 0.78rem;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.96);
-}
-
-.terminal-top {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.4rem 0.6rem;
-  background: #020617;
-  border-bottom: 1px solid rgba(55, 65, 81, 0.9);
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-}
-
-.dot.red {
-  background: #f97373;
-}
-
-.dot.yellow {
-  background: #facc15;
-}
-
-.dot.green {
-  background: #4ade80;
-}
-
-.terminal-body {
-  padding: 0.75rem 0.9rem 0.85rem;
-}
-
-.terminal-line {
-  margin-bottom: 0.25rem;
-}
-
-.prompt {
-  color: var(--accent-neon);
-}
-
-footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  padding: 1.5rem 1rem 2rem;
-}
-
-footer span.brand {
-  background: linear-gradient(90deg, var(--accent-neon), var(--accent-gold));
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 600;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .hero {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .hero-right {
-    order: -1;
-  }
-
-  .hero::before {
-    display: none;
-  }
-
-  .grid-2,
-  .contact-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  nav ul {
-    display: none;
-  }
-}
-
-@media (max-width: 640px) {
-  main {
-    padding-inline: 1rem;
-  }
-
-  .hero {
-    padding: 1.3rem 1rem;
-  }
-
-  .skills-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-  </style>
-</head><body>
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>  <header>
-    <div class="nav-container">
-      <div class="brand">
-        <div class="brand-logo">
-          RH
-          <img src="https://i.imgur.com/Q89m3ix.jpeg" alt="Rakib Logo" />
-        </div>
-        <div class="brand-text">
-          <span>CYBER RAKIB</span>
-          <span>Rakib Hasan</span>
-        </div>
-      </div><nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
-    Hire / Collab →
-  </button>
 </div>
 
-  </header>  <main>
-    <!-- HERO -->
-    <section class="hero" id="top">
-      <div class="hero-left">
-        <div class="hero-badge">
-          <span>🛡 DARK HACKER MODE</span>
-          <span>BD • Frontend Dev</span>
-        </div>
-        <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Rakib Hasan</span><br />
-          Frontend Developer & Cyber Brand Crafter
-        </h1>
-        <p class="hero-subtitle">
-          I build <strong>dark, clean, hacker-style</strong> web experiences with
-          a touch of <strong>luxury branding</strong> – neon green, black UI and
-          smooth layouts.
-        </p>
-        <div class="hero-tags">
-          <span class="hero-tag">🚀 Frontend Developer</span>
-          <span class="hero-tag">🧠 AI • Creative Mind</span>
-          <span class="hero-tag">🛡 Hacker Themed UI</span>
-          <span class="hero-tag">👑 Personal Brand Focus</span>
-        </div>
-        <div class="hero-actions">
-          <button class="btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
-            View Featured Project
-          </button>
-          <button class="btn-ghost" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
-            <span>↓</span> More About Me
-          </button>
-        </div>
-      </div><div class="hero-right">
-    <div class="floating-chip">LIVE • HACKER BRAND</div>
-    <div class="hero-card">
-      <div class="hero-banner">
-        <img src="https://i.imgur.com/Q89m3ix.jpeg" alt="Rakib Banner" />
-      </div>
-      <div class="hero-meta">
-        <div>
-          <span class="status-dot"></span> Available for collab
-        </div>
-        <div>From 🇧🇩 Bangladesh</div>
-      </div>
-    </div>
-  </div>
-</section>
+---
 
-<!-- ABOUT -->
-<section id="about">
-  <h2 class="section-title"><span class="icon">🧬</span> Digital Identity</h2>
-  <p class="section-sub">
-    I'm <strong>☆ NUR RAKIB ☆ HAFIZ</strong>, a Bangladeshi developer who
-    mixes <strong>hacker vibes</strong>, <strong>luxury style</strong> and
-    <strong>minimal professional design</strong> into one unique brand.
-  </p>
+## 🧬 Digital Identity
 
-  <div class="grid-2">
-    <div class="card">
-      <h3>Who am I?</h3>
-      <p>
-        • Frontend developer focused on <strong>modern UI</strong> &
-        <strong>smooth UX</strong>.<br />
-        • Loves dark themes, neon green highlights and hacker-style layouts.
-        <br />
-        • Always pushing profile & portfolio design to the next level.
-      </p>
-      <div class="pill-row">
-        <span class="pill">Name: ☆ NUR RAKIB ☆ HAFIZ</span>
-        <span class="pill">Religion: ISLAM</span>
-        <span class="pill">Status: Complicated ❤️</span>
-        <span class="pill">Education: STUDY</span>
-      </div>
-    </div>
+```json
+{
+  "Name": "Rakib Hasan",
+  "Alias": "☆ Nur Rakib ☆",
+  "Country": "Bangladesh",
+  "Role": "Frontend Dev + Creative Designer",
+  "Theme": "Cyber x Luxury x Pro",
+  "Vision": "Global Personal Brand"
+}
+```
 
-    <div class="card">
-      <h3>Mindset & Vision</h3>
-      <p>
-        I want to be known not only for code, but for a
-        <strong>signature style</strong> – when someone sees a design and
-        says: "This looks like CYBER RAKIB".
-      </p>
-      <div class="pill-row">
-        <span class="pill">Never stop learning</span>
-        <span class="pill">Design + Code = Identity</span>
-        <span class="pill">Bangladesh → Global Stage</span>
-      </div>
-    </div>
-  </div>
-</section>
+> "I don't just write code, I design experiences."
 
-<!-- SKILLS -->
-<section id="skills">
-  <h2 class="section-title"><span class="icon">💡</span> Skills & Tech Stack</h2>
-  <p class="section-sub">
-    Technologies I use to craft hacker-style yet premium looking web
-    experiences.
-  </p>
+---
 
-  <div class="grid-2">
-    <div class="card">
-      <h3>Core Frontend</h3>
-      <div class="skills-grid">
-        <div class="skill-box">HTML5 <span>Semantic, SEO friendly</span></div>
-        <div class="skill-box">CSS3 <span>Flex, Grid, Animation</span></div>
-        <div class="skill-box">JavaScript <span>Interactive UI</span></div>
-        <div class="skill-box">React (basic) <span>Modern SPA</span></div>
-        <div class="skill-box">Tailwind CSS <span>Fast styling</span></div>
-        <div class="skill-box">Bootstrap <span>Quick layouts</span></div>
-      </div>
-    </div>
+## 🔮 Super Skills Matrix
 
-    <div class="card">
-      <h3>Tools & Focus</h3>
-      <div class="skills-grid">
-        <div class="skill-box">Git & GitHub <span>Code control</span></div>
-        <div class="skill-box">VS Code <span>Theme: Dark hacker</span></div>
-        <div class="skill-box">Figma (basic) <span>UI mockups</span></div>
-        <div class="skill-box">Design Sense <span>Colors & balance</span></div>
-        <div class="skill-box">Branding <span>Profile identity</span></div>
-        <div class="skill-box">Cyber Style UI <span>Neon / Matrix vibe</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+<div align="center">
 
-<!-- PROJECTS -->
-<section id="projects">
-  <h2 class="section-title"><span class="icon">🚀</span> Featured Project</h2>
-  <p class="section-sub">
-    A project that reflects my hacker-style branding and love for cyber
-    themed design.
-  </p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,git,github,figma&theme=dark" />
 
-  <div class="project-card">
-    <h3>🤖 CYBER-BOT-RAKIB</h3>
-    <p class="project-meta">
-      A bot project built with a strong cyber atmosphere, combining
-      automation with a personal brand.
-    </p>
-    <p>
-      Focused on <strong>identity</strong>, <strong>visual style</strong> and
-      a unique look that stands out from normal repos.
-    </p>
-    <div class="pill-row">
-      <span class="pill">Bot / Automation</span>
-      <span class="pill">Hacker Theme</span>
-      <span class="pill">Custom README Design</span>
-    </div>
-    <a class="project-link" href="https://github.com/bdrakib123/cyber-bot-rakib" target="_blank" rel="noreferrer">
-      → View CYBER-BOT-RAKIB on GitHub
-    </a>
-  </div>
-</section>
+</div>
 
-<!-- CONTACT -->
-<section id="contact">
-  <h2 class="section-title"><span class="icon">📡</span> Contact & Social</h2>
-  <p class="section-sub">
-    Want to collab, design a next-level GitHub profile, or build something
-    cool with hacker vibes?
-  </p>
+---
 
-  <div class="contact-grid">
-    <div>
-      <ul class="contact-list">
-        <li>📍 From: <strong>Bangladesh</strong></li>
-        <li>🧑‍💻 Role: <strong>Frontend Developer</strong></li>
-        <li>🛡 Brand: <strong>CYBER RAKIB</strong></li>
-      </ul>
-      <div class="badge">Open for creative collaborations</div>
-      <div class="social-row">
-        <a class="social-btn" href="https://github.com/bdrakib123" target="_blank" rel="noreferrer">
-          GitHub <span>@bdrakib123</span>
-        </a>
-        <a class="social-btn" href="https://www.facebook.com/hoon420" target="_blank" rel="noreferrer">
-          Facebook <span>/hoon420</span>
-        </a>
-        <a class="social-btn" href="https://www.instagram.com/hoon420" target="_blank" rel="noreferrer">
-          Instagram <span>@hoon420</span>
-        </a>
-      </div>
-    </div>
+## 📈 Performance Dashboard
 
-    <div class="terminal-card">
-      <div class="terminal-top">
-        <div class="dot red"></div>
-        <div class="dot yellow"></div>
-        <div class="dot green"></div>
-      </div>
-      <div class="terminal-body">
-        <div class="terminal-line"><span class="prompt">rakib@portfolio</span>:~$ brand status</div>
-        <div class="terminal-line">▶ Name : RAKIB HASAN (☆ NUR RAKIB ☆)</div>
-        <div class="terminal-line">▶ Mode : DARK HACKER + LUXURY PREMIUM</div>
-        <div class="terminal-line">▶ From : BANGLADESH</div>
-        <div class="terminal-line">▶ Goal : Build a global dev identity</div>
-      </div>
-    </div>
-  </div>
-</section>
+<div align="center">
 
-  </main>  <footer>
-    <p>
-      Designed in <span class="brand">HACKER MODE</span> by CYBER RAKIB • Keep building, keep glowing.
-    </p>
-  </footer>
-</body></html>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=bdrakib123&show_icons=true&theme=radical&hide_border=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=bdrakib123&theme=radical&hide_border=true" />
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bdrakib123&layout=compact&theme=radical&hide_border=true" />
+
+</div>
+
+---
+
+## 🏆 Elite Achievements
+
+<img src="https://github-profile-trophy.vercel.app/?username=bdrakib123&theme=tokyonight&no-frame=true&row=1&margin-w=15" />
+
+---
+
+## 💎 Signature Project
+
+<p align="center">
+<a href="https://github.com/bdrakib123/cyber-bot-rakib">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=bdrakib123&repo=cyber-bot-rakib&theme=synthwave" />
+</a>
+</p>
+
+---
+
+## 🧍 Personal Profile
+
+* 👤 Name : ☆ NUR RAKIB ☆ HAFIZ
+* 📚 Education : STUDY
+* ❤️ Relationship : Complicated
+* ☪ Religion : ISLAM
+* 🚀 Dream : Top Global Developer
+
+---
+
+## 🌐 Cyber Contact Zone
+
+<p align="center">
+<a href="https://github.com/bdrakib123"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.facebook.com/hoon420"><img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
+<a href="https://www.instagram.com/hoon420"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+</p>
+
+---
+
+## 🌀 Live Visual Experience
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<div align="center">
+
+### 💠 CYBER RAKIB ZONE 💠
+
+<img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=18&center=true&color=00ff00&width=700&lines=This+Profile+Is+Not+Normal;It+Is+A+Digital+Universe;Welcome+To+The+Next+Level" />
+
+</div>
+
+---
+
+<div align="center">
+
+<h2>🛡️ LEGENDARY MODE ENABLED</h2>
+<p>Designed with 💎 Vision by Rakib Hasan</p>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌠 NEON MOTION ANIMATION
+
+<img src="https://readme-typing-svg.demolab.com/?font=Orbitron&size=22&duration=2000&pause=500&color=39FF14&center=true&vCenter=true&width=800&lines=SYSTEM+BOOTING...;NEON+MOTION+ACTIVATED;CYBER+RAKIB+ONLINE;WELCOME+TO+THE+FUTURE" />
+
+</div>
+
+---
+
+## 🧠 AI STYLE PROFILE
+
+```ai
+Personality: Visionary Developer
+Design DNA : Futuristic + Intelligent + Bold
+Core Mode  : AI-Driven Creativity
+Brain Loop : Learn → Build → Innovate → Dominate
+Signature  : Digital Excellence
+```
+
+> "Artificial Intelligence is my tool, Creativity is my weapon."
+
+---
+
+## 🌍 Portfolio Website Version
+
+🚀 Full Interactive Portfolio Concept:
+
+* Live Neon Hero Section
+* Smooth Scroll Animation
+* Cyber Gradient Background
+* Project Showcases
+* Contact Terminal Form
+
+🔗 Suggested Domain Concept:
+
+```
+https://cyberrakib.dev
+https://rakibhasan.tech
+```
+
+---
+
+## 👑 VIP SIGNATURE DESIGN
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?font=Great+Vibes&size=26&color=FFD700&center=true&width=600&lines=VIP+SIGNATURE+OF+RAKIB+HASAN;DIGITAL+ROYALTY+EDITION;EXCLUSIVE+PERSONAL+BRAND" />
+
+</div>
+
+---
+
+<div align="center">
+
+<h2>🛡️ LEGENDARY MODE ENABLED</h2>
+<h3>👑 VIP AI CYBER BRAND 👑</h3>
+<p>Designed with ⚡ Vision & 💎 Prestige by Rakib Hasan</p>
+
+</div>
