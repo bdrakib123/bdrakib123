@@ -78,7 +78,7 @@
   <br>
   
   <a href="https://github.com/bdrakib123">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=cyber-ullash&show_icons=true&theme=github_dark&line_height=27" alt="RAKIB github stats" style="margin-top: 10px;"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=bdrakib123&show_icons=true&theme=github_dark&line_height=27" alt="RAKIB github stats" style="margin-top: 10px;"/>
   </a>
   <br>
   <br>
@@ -91,4 +91,4 @@
 <h3><b><i> Contact me in Touch :</i></b></h3>
 <a href="https://github.com/bdrakib123"><img align="left" title="Github" alt="Github" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" /></a>
 <a href="https://www.facebook.com/hoon420"><img align="left" title="Facebook" alt="Facebook" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" /></a>
-<a href="https://www.instagram.com/xxxx"><img align="left" title="Instagram" alt="Instagram" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" /></a>
+<a href="https://www.instagram.com/hoon420"><img align="left" title="Instagram" alt="Instagram" width="30px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" /></a>
