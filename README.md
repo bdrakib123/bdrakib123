@@ -28,7 +28,7 @@
 💎 Signature Project
 
 <p align="center">
-<a href="https://github.com/bdrakib123/cyber-bot-rakib">
+<a href="https://github.com/bdrakib12/makima-got-bot">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=bdrakib123&repo=cyber-bot-rakib&theme=synthwave" />
 </a>
 </p>
