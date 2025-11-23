@@ -67,7 +67,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=420&lines=☣️𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑☢️𝐂𝐘𝐁𝐄𝐑+𝐑𝐀𝐊𝐈𝐁💀">
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=cyber-ullash">
+  <img src="https://github-profile-trophy.vercel.app/?username=bdrakib123">
   <br>
   <br>
   
