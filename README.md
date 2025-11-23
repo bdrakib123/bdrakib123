@@ -3,7 +3,7 @@
 <div align="center">
 
 <h1>⚡ RAKIB HASAN ⚡</h1>
-<h3>☆ NUR RAKIB ☆</h3>
+<h3>☆ AKAIMA ☆</h3>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Orbitron&size=30&duration=3000&pause=800&color=00FFCC&center=true&vCenter=true&width=800&lines=HACKER+•+DESIGNER+•+FRONTEND+DEVELOPER;CREATING+DIGITAL+IDENTITY+WITH+STYLE;WELCOME+TO+THE+CYBER+REALM+OF+RAKIB" />
 
