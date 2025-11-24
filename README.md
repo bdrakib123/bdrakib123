@@ -70,7 +70,7 @@
 ## 💎 Signature Project
 
 <p align="center">
-<a href="https://github.com/bdrakib12/makima-goat-bot">
+<a href="https://github.com/bdrakib123/NOOB-PROGRAMING">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=bdrakib12&repo=makima-goat-bot&theme=synthwave" />
 </a>
 </p>
