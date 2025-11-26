@@ -70,8 +70,8 @@
 ## 💎 Signature Project
 
 <p align="center">
-<a href="https://github.com/bdrakib123/NOOB-PROGRAMING">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=bdrakib123&repo=NOOB-PROGRAMING&theme=synthwave" />
+<a href="https://github.com/bdrakib123/mirai-bot-rakib">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=bdrakib123&repo=mirai-bot-rakib&theme=synthwave" />
 </a>
 </p>
 
